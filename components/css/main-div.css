@@ -72,7 +72,10 @@ section  {
     color: white;
 }
 
-
+.selected:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
 
 .selected{
     background-color: hsl(217, 12%, 63%);

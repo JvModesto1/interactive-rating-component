@@ -1,0 +1,36 @@
+.-submited {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.-apreciate {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.phone {
+    margin-bottom: 15px;
+    width: 135px;
+    margin-top: 20px;
+}
+
+.your-rating {
+    background-color: hsl(213, 19%, 18%);
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    color: hsl(25deg 66% 41%);
+    font-size: 14px;
+    padding: 4px 15px;
+    border-radius: 30px;
+}
+
+#invisible {
+    display: none;
+}
+
+.-thanks {
+    margin-bottom: 20px
+}

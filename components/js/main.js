@@ -33,4 +33,7 @@ number.forEach((number) => {
         currentRatingIndex = index;
         setRating(index);
     });
-}) 
+})
+
+var p = document.getElementById('number');
+p.innerHTML = (`[data-rate="${index}"]`);
