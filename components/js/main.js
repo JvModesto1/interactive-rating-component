@@ -8,6 +8,10 @@ const setRating = (index) => {
     if (index > 0 && index <= number.length) {
         document.querySelector(`[data-rate="${index}"]`).classList.add('selected');
     }
+    const avaliation = document.querySelector('.avaliation-rating');
+    const texto = `You selected ${index} out of 5`;
+
+    avaliation.insertAdjacentHTML("afterbegin", texto);
 }
 
 const checkSelectedNumber = (number) => {
@@ -35,5 +39,3 @@ number.forEach((number) => {
     });
 })
 
-var p = document.getElementById('number');
-p.innerHTML = (`[data-rate="${index}"]`);
