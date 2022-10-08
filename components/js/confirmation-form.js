@@ -8,6 +8,7 @@ function toggle_visibility(){
                 e.style.display = 'flex';
                 i.style.display = 'none';
         }
+        
 }
 
 
